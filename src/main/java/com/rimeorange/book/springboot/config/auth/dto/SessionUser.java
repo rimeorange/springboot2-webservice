@@ -2,6 +2,8 @@ package com.rimeorange.book.springboot.config.auth.dto;
 
 import com.rimeorange.book.springboot.domain.user.User;
 import lombok.Getter;
+import org.springframework.context.annotation.Scope;
+import org.springframework.context.annotation.ScopedProxyMode;
 
 import java.io.Serializable;
 
